@@ -20,6 +20,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
+\usepackage[margin=0.15in]{geometry}
 
 
 %----------FONT OPTIONS----------
@@ -41,11 +42,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+%\addtolength{\oddsidemargin}{-0.25in}
+%\addtolength{\evensidemargin}{-0.25in}
+%\addtolength{\textwidth}{1in}
+%\addtolength{\topmargin}{-.5in}
+%\addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
 
@@ -56,7 +57,7 @@
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -93,17 +94,17 @@
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.05in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -118,7 +119,7 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Onyekachukwu Franklin Muoghalu} \\ \vspace{1pt}
+    \textbf{\Huge \scshape Franklin Muoghalu} \\ \vspace{1pt}
     \small 713-614-9695 $|$ \href{mailto:franklinmuoghalu@gmail.com}{\underline{franklinmuoghalu@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/onyekachukwu-muoghalu-a059aa217/}{\underline{linkedin.com/in/-franklin}} $|$
     \href{https://github.com/MFO246810}{\underline{github.com/MFO2468}} $|$
@@ -128,33 +129,58 @@
 
 %-----------EDUCATION-----------
 \section{Education}
-  \resumeSubHeadingListStart
+  \resumeSubHeadingListStart 
     \resumeSubheading
-      {University of Houston}{Houston, TX}
-      {Bachelor of Science, Computer Science}{Expected Graduation: May 2026}
+      {University of Houston}{Expected Graduation: May 2026}
+      {Bachelor's in Computer Science}{}
       \resumeItemListStart
-        \resumeItem{Cumulative GPA of 3.57/4.0; Dean's list student}
+        \resumeItem{GPA of \textbf{3.57/4.0}; Dean's list student}
       \resumeItemListEnd
-  \resumeSubHeadingListEnd \vspace{-17pt}
+  \resumeSubHeadingListEnd \vspace{-18pt}
 
 \section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
+\begin{itemize}[leftmargin=0.10in, label={}]
     \small{\item{
-     \textbf{Languages}{:Python, C/C++, C\#, Razor, JavaScript, HTML/CSS, R, Java, SQL} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, .NET} \\
-     \textbf{Developer Tools}{: Git, Google Cloud Platform, VS Code, Visual Studio, PyCharm} \\
-     \textbf{AI \& Machine Learning: }{NLP, OpenAI API (Embedding Models, GPT Models), LLM Integration, RAG Models}
+    \textbf{Programming Languages:} Python, C++, C\#, Java, JavaScript, SQL, R, HTML/CSS, Razor \\
+    \textbf{Frameworks \& Libraries:} React.js, Node.js, Express.js, Flask, .NET \\
+    \textbf{Tools \& Platforms:} Git, GitHub, GitHub Actions, Docker, Google Cloud\\
+    \textbf{Server \& DevOps:} Nginx, Reverse Proxy Configuration, SSL/TLS, Cloudflare DNS, SSH, Systemd Services \\
+    \textbf{AI \& ML:} RAG, NLP, Model Fine-Tuning, Neural Networks, Logistic Regression
     }}
- \end{itemize} \vspace{-22pt}
+\end{itemize}
+\vspace{-20pt}
+
 %-----------EXPERIENCE-----------
-\section{Work Experience} 
-  \resumeSubHeadingListStart
+
+\section{Work Experience}
+  \resumeSubHeadingListStart    
     \resumeExperienceheading
-      {{\bfseries Tutor}, Scholars Enrichment Programs, University of Houston}{January 2024 -- Present} \vspace{-6pt}
+      {{\bfseries System Enigineer}, Foxconn}{May 2025 -- Present} \vspace{-9pt}
       \resumeItemListStart
-        \resumeItem{Provided 1:1 detailed instructions to 4+ students weekly on calculus, and data structures}
-        \resumeItem{Developed customized study plans resulting in a 25\% increase in grade improvement}
-      \resumeItemListEnd \vspace{-7pt}
+        \resumeItem{Created and implemented internal testing software that increased overall testing efficiency by 30\%}
+        \resumeItem{Authored comprehensive technical documentation used by production technicians, improving workflow speed and reducing onboarding time by 20\%}
+        \resumeItem{Designed, deployed, and maintained production control systems, factory automation platforms, and industrial network infrastructure to support high-volume manufacturing operations}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart    
+    \resumeExperienceheading
+      {{\bfseries Director of Tutoring}, CougarCS}{August 2025 -- Present} \vspace{-9pt}
+      \resumeItemListStart
+        \resumeItem{Developed a Discord-based tutoring coordination bot that streamlined student support and contributed to a 20\% increase in overall student performance}
+        \resumeItem{Led and managed a team of 15+ tutors, ensuring consistent delivery of high-quality academic assistance across multiple subjects}
+        \resumeItem{Designed customized study plans for students, resulting in measurable grade improvements of up to 25\%}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%  \resumeSubHeadingListStart
+%   \resumeExperienceheading
+%    {{\bfseries Tutor}, Scholars Enrichment Programs, University of Houston}{January 2024 -- May 2025} \vspace{-6pt}
+%   \resumeItemListStart
+%    \resumeItem{Provided 1:1 detailed instructions to 4+ students weekly on calculus, and data structures}
+%   \resumeItem{Developed customized study plans resulting in a 25\% increase in grade improvement}
+%  \resumeItemListEnd \vspace{-7pt}
+%  \resumeSubHeadingListEnd
       
 % -----------Multiple Positions Heading-----------
 %    \resumeSubSubheading
@@ -166,61 +192,80 @@
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
 
-    
-
-  \resumeSubHeadingListEnd
-
-
 %-----------PROJECTS-----------
 \section{Project Experience }
-    \resumeSubHeadingListStart
+  \resumeSubHeadingListStart
     \resumeProjectHeading
-          {\textbf{Syallabi-buddy} $|$ {Python, Flask, HTML, CSS, JavaScript, LLM, NLP}}{August 2024 -- Present}
-          \resumeItemListStart
-            \resumeItem{Built a full-stack web application using Flask backend and integrated Google Calendar API for event scheduling.}
-            \resumeItem{Automated syllabus parsing to extract key dates and assignments, adding them directly to users' calendars.}
-            \resumeItem{Designed a user-friendly interface for uploading syllabi and customizing calendar updates.}
-          \resumeItemListEnd \vspace{-7pt}
+      {\textbf{Documentation Tool} $|$ {Python, Flask, Express.js, React, JavaScript, LLM, NLP, RAG}}{September 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Designed and built a documentation platform that automatically logs, categorizes, and tracks errors encountered during development}
+        \resumeItem{Implemented a hybrid backend architecture using Express.js for database routing and a Flask service for image uploads, file processing, and communication with a locally running RAG model}
+        \resumeItem{Integrated LLM and NLP components to provide contextual suggestions, error explanations, and automated documentation generation}
+        \resumeItem{Projected to increase overall development productivity by 30\% through centralized issue tracking and AI-assisted debugging}
+      \resumeItemListEnd \vspace{-5pt}
+
     \resumeProjectHeading
-          {\textbf{F.I.N.D} $|$ {Python, LLM, Embedding Models, NLP, AWS polly, ChromaDB}}{January 2025}
-          \resumeItemListStart
-            \resumeItem{Received an Honorable mention at the Texas A\&M Hackathon (TAMUHACK) for co developing the Fast Information Navigation through Documents i.e F.I.N.D}
-            \resumeItem{Developed as an AI agent that uses documents given by the user to answer queries from the user.}
-            \resumeItem{Uses amazon web services to allow communication between the user and the agent}
-            \resumeItem{Used the Arize software to boost efficiency of the agent by 50\% }
-          \resumeItemListEnd \vspace{-7pt}
+    {\textbf{Dani-Foods E-Commerce store} $|$ {React, Typescript, Express, MYSQL, Github Actions, Nginx}}{August 2025 - Present}
+    \resumeItemListStart
+        \resumeItem{Developed and maintained an e-commerce platform for selling Nigerian food products, including secure checkout and inventory tracking features}
+        \resumeItem{Automated operational workflows such as pricing updates, low-stock alerts, and order notifications}
+        \resumeItem{Implemented SEO and analytics strategies that increased traffic and repeat customer purchases}
+    \resumeItemListEnd \vspace{-5pt}
+
     \resumeProjectHeading
-          {\textbf{O.M.N.I} $|$ {Python, LLM, Embedding Models, NLP, Open-AI}}{November 2024}
-          \resumeItemListStart
-            \resumeItem{Won the grand prize at the Johnson space center Hackathon(JSC Hack) for co developing the Operational Manual Navigation Interface i.e O.M.N.I}
-            \resumeItem{Developed as an AI-agent with Python as the back-end and Tikinter as the front-end to assist astronauts doing space exploration during emergencies.}
-            \resumeItem{Designed another program to process space shuttle manuals and create embedding vectors for a vector database.}
-        \resumeItemListEnd \vspace{-7pt}
+      {\textbf{Frontend Creator} $|$ {Python, Httpx, Flask, React, LLM, MCP}}{September 2025}
+        \resumeItemListStart
+          \resumeItem{Developed a custom MCP server–client system that automatically generates frontend design skeletons to accelerate UI development}
+          \resumeItem{Increased overall web development efficiency by 40\% through automated component generation and streamlined workflows}
+          \resumeItem{Integrated LLM-driven prompts and template generation to produce consistent, responsive layouts with minimal effort}
+        \resumeItemListEnd \vspace{-5pt}
+        
     \resumeProjectHeading
-          {\textbf{Personal Web and Game Server Development} $|$ {Node.js, Nginx,}}{October 2024}
-          \resumeItemListStart
-            \resumeItem{Built and managed server infrastructure for hosting 5+ websites and game servers.}
-            \resumeItem{Set up and configured a secure web server using Nginx, Cloudflare SSL, and Node.js backend.}
-            \resumeItem{Deployed the server on both Windows and Linux environments, customizing Nginx configurations for each platform.}
-          \resumeItemListEnd \vspace{-7pt}   
-    \resumeProjectHeading
-          {\textbf{Simulating Clocktimes} $|$ {C++}}{September 2024}
-          \resumeItemListStart
-            \resumeItem{Simulated CPU and user process scheduling using a priority queue, differentiating between high-priority and low-priority events.}
-            \resumeItem{Designed event-driven mechanisms to handle time slices, user interactions, and SSD operations in real-time.}
-            \resumeItem{Implemented time-sharing logic to ensure equitable CPU allocation among processes, improving system responsiveness by 20\%.}
-            \resumeItem{Utilized C++ to build the simulation, incorporating process management, queues, and event handling.}
-            \resumeItem{Tested and validated the simulation with various input scenarios to ensure accurate and reliable performance.}
-        \resumeItemListEnd \vspace{-7pt}
-    \resumeSubHeadingListEnd
-\section{Leadership Experience}
-\resumeSubHeadingListStart
-    \resumeExperienceheading
-      {{\bfseries Director of Tutoring}, Cougar CS, University of Houston}{January 2025 -- Present}
-      \vspace{-7pt}
-    \resumeExperienceheading
-      {{\bfseries Events Coordinator}, Cougar AI, University of Houston}{January 2025 -- Present}
-  \resumeSubHeadingListEnd
+      {\textbf{O.M.N.I} $|$ {Python, LLMs, Embeddings, NLP, RAG, OpenAI, Docker, Cloudflare}}{November 2024 - May 2025}
+        \resumeItemListStart
+          \resumeItem{Won the Grand Prize at the Johnson Space Center Hackathon for applying O.M.N.I to NASA mission manuals, enabling astronauts to rapidly retrieve emergency procedures using natural-language queries}
+          \resumeItem{Built an intelligent AI agent with a Python backend and Tkinter UI, designed to allow users to query and navigate complex technical information in real time}
+          \resumeItem{Developed a publicly accessible API capable of ingesting documents from any source, generating embeddings, and storing them in a vector database for high-accuracy retrieval}
+          \resumeItem{Containerized and deployed the system using Docker and Cloudflare Tunnels for secure, remote accessibility and testing}
+        \resumeItemListEnd \vspace{-5pt}
+
+\resumeProjectHeading
+    {\textbf{Self-Hosted Server Infrastructure \& Deployment} $|$ {Nginx, Docker, Cloudflare}}{October 2024 -- Present}
+    \resumeItemListStart
+        \resumeItem{Built and maintained a multi-platform server infrastructure spanning a Raspberry Pi 5, a home Linux server, and an Oracle Cloud instance}
+        \resumeItem{Hosted and managed 5+ applications including personal web apps, LLM tools, and a multiplayer game server, ensuring high availability and secure access}
+        \resumeItem{Configured a full Nginx-based reverse proxy with Cloudflare SSL/TLS, DNS, and firewall protections across all environments}
+        \resumeItem{Deployed database services on Oracle Cloud, supporting API backends and real-time application features through optimized connection management}
+        \resumeItem{Implemented automated updates, containerized services, and monitoring tools to streamline maintenance and improve overall system reliability}
+    \resumeItemListEnd \vspace{-7pt}  
+  \resumeSubHeadingListEnd      
+%    \resumeProjectHeading
+%          {\textbf{F.I.N.D} $|$ {Python, LLM, Embedding Models, NLP, AWS polly, ChromaDB}}{January 2025}
+%          \resumeItemListStart
+%            \resumeItem{Received an Honorable mention at the Texas A\&M Hackathon (TAMUHACK) for co developing the Fast Information Navigation through Documents i.e F.I.N.D}
+%           \resumeItem{Developed as an AI agent that uses documents given by the user to answer queries from the user.}
+%            \resumeItem{Uses amazon web services to allow communication between the user and the agent}
+%            \resumeItem{Used the Arize software to boost efficiency of the agent by 50\% }
+%          \resumeItemListEnd \vspace{-7pt}
+    
+%   \resumeProjectHeading
+%         {\textbf{Simulating Clocktimes} $|$ {C++}}{September 2024}
+%          \resumeItemListStart
+%            \resumeItem{Simulated CPU and user process scheduling using a priority queue, differentiating between high-priority and low-priority events.}
+%            \resumeItem{Designed event-driven mechanisms to handle time slices, user interactions, and SSD operations in real-time.}
+%            \resumeItem{Implemented time-sharing logic to ensure equitable CPU allocation among processes, improving system responsiveness by 20\%.}
+%            \resumeItem{Utilized C++ to build the simulation, incorporating process management, queues, and event handling.}
+%            \resumeItem{Tested and validated the simulation with various input scenarios to ensure accurate and reliable performance.}
+%        \resumeItemListEnd \vspace{-7pt} 
+    
+%\section{Leadership Experience}
+%\resumeSubHeadingListStart
+%    \resumeExperienceheading
+%      {{\bfseries Director of Tutoring}, Cougar CS, University of Houston}{January 2025 -- Present}
+%      \vspace{-7pt}
+%    \resumeExperienceheading
+%     {{\bfseries Events Coordinator}, Cougar AI, University of Houston}{January 2025 -- Present}
+%  \resumeSubHeadingListEnd
 %
 %-----------PROGRAMMING SKILLS-----------
 
