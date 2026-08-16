@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.10.21)  31 JUL 2026 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.10.21)  14 AUG 2026 18:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -387,11 +387,7 @@ LaTeX Info: Redefining \nameref on input line 113.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 122.
-
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 123.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 135.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
@@ -403,25 +399,22 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 989018623AAD6D5902B2922FB8CD6C0B;479.
  ) 
 Here is how much of TeX's memory you used:
- 11417 strings out of 480247
- 178380 string characters out of 5896150
- 525517 words of memory out of 5000000
- 29216 multiletter control sequences out of 15000+600000
- 475287 words of font info for 53 fonts, out of 8000000 for 9000
+ 11412 strings out of 480247
+ 178319 string characters out of 5896150
+ 519517 words of memory out of 5000000
+ 29212 multiletter control sequences out of 15000+600000
+ 474980 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,63p,279b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on main.pdf (1 page, 89067 bytes).
+ 60i,11n,63p,259b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on main.pdf (1 page, 76805 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
